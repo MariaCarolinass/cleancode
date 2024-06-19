@@ -16,4 +16,11 @@ Manter um código limpo nos torna programadores profissionais, mesmo que seja pr
 
 ### Somos autores do nosso código
 
-Lembre-se de que o programador é o @author do código e a boa comunicação irá depender de quem escreve. São outros leitores que julgarão a maneira como nós estamos comunicando.
+Lembre-se de que o programador é o `@author` do código e a boa comunicação irá depender de quem escreve. São outros leitores que julgarão a maneira como nós estamos comunicando.
+
+Além de escrever um bom código, mantenha-o limpo para que, com o tempo, não torne o código em ruim de novo. É preciso cultivar o bom código. 
+
+ - Troque o nome de uma variável por uma melhor.
+ - Divida uma função que esteja um pouco grande demais.
+ - Elimine um pouco de repetição do código.
+ - Reduza uma instrução `if` aninhada.
