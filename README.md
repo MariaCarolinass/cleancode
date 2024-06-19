@@ -24,3 +24,7 @@ Além de escrever um bom código, mantenha-o limpo para que, com o tempo, não t
  - Divida uma função que esteja um pouco grande demais.
  - Elimine um pouco de repetição do código.
  - Reduza uma instrução `if` aninhada.
+
+## Capítulo 2 - Nomes significativos
+
+Como escolher bons nomes para as nossas variáveis, funções, parâmetros, classes, pacotes, arquivos e etc?
