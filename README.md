@@ -13,3 +13,7 @@ O código é a linguagem na qual expressamos nossos requisitos. Os requisitos pr
 Um código ruim é aquele que vai te fazer demorar mais tempo do que o normal para solucionar algo. Esse código está cheio de bugs que não foram corrigidos quando preciso e não foi codificado de forma legível. O código ruim vai fazer com que a produtividade do time caia, pois a cada implementação, novos problemas surgirão, assim criando uma bola de neve. 
 
 Manter um código limpo nos torna programadores profissionais, mesmo que seja preciso adiar prazos para cumprir requisitos. A eficácia de ter um bom código é muito mais reconhecível.
+
+### Somos autores do nosso código
+
+Lembre-se de que o programador é o @author do código e a boa comunicação irá depender de quem escreve. São outros leitores que julgarão a maneira como nós estamos comunicando.
