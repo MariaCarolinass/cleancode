@@ -27,4 +27,10 @@ Além de escrever um bom código, mantenha-o limpo para que, com o tempo, não t
 
 ## Capítulo 2 - Nomes significativos
 
-Como escolher bons nomes para as nossas variáveis, funções, parâmetros, classes, pacotes, arquivos e etc?
+Como escolher bons nomes para as nossas variáveis, funções, parâmetros, classes, pacotes, arquivos e etc? O nome de uma variável deve haver um **propósito** para ter sido escolhido, ele deve dizer para que existe, o que faz e como é usado. Se o nome precisa de um comentário para ser entendido, então ele não mostra o seu propósito. 
+
+    int a; // número de camisas vendidas no dia
+
+A variável nomeada `a` declarada como um inteiro não me mostra o que esse inteiro é, pois, imagine não haver um comentário ao lado dela, `a` poderia ser qualquer número inteiro, onde não sabemos o que ele representa. Ela não me mostra que significa o número de camisas e nem muito menos me mostra que é o número de camisas vendidas no dia.
+
+Vamos pensar, se tivermos um arquivo com 1000 linhas de código programadas e alguma função ao final do arquivo que precise da variável `a`, como vamos achá-la no meio de tanto código, como iremos lembrar o que `a` faz e qual o sentido que essa variável estaria dando ao nosso código.
