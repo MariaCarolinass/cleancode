@@ -34,3 +34,20 @@ Como escolher bons nomes para as nossas variáveis, funções, parâmetros, clas
 A variável nomeada `a` declarada como um inteiro não me mostra o que esse inteiro é, pois, imagine não haver um comentário ao lado dela, `a` poderia ser qualquer número inteiro, onde não sabemos o que ele representa. Ela não me mostra que significa o número de camisas e nem muito menos me mostra que é o número de camisas vendidas no dia.
 
 Vamos pensar, se tivermos um arquivo com 1000 linhas de código programadas e alguma função ao final do arquivo que precise da variável `a`, como vamos achá-la no meio de tanto código, como iremos lembrar o que `a` faz e qual o sentido que essa variável estaria dando ao nosso código.
+
+#### Um código com nomes ruins
+
+    public Boolean verificarCamisas() {
+       int a = 6; // número de camisas vendidas no dia
+       int b = 12; // número total de camisas
+       return a == b;
+    }
+
+#### Um código com nomes melhores
+
+    public Boolean verificarSeAtingiuTotalDeVendas() {
+       int camisasVendidasNoDia = 6;
+       int totalCamisas = 12;
+       return camisasVendidasNoDia == totalCamisas;
+    }
+
