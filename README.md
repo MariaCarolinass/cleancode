@@ -57,3 +57,6 @@ Vamos pensar, se tivermos um arquivo com 1000 linhas de código programadas e al
        return camisasVendidasNoDia == totalCamisas;
     }
 
+A escolha de bons nomes ao código torna mais fácil de entender o que está acontecendo, tanto para o próprio programador que está programando quanto para os futuros programadores que irão ler o código. 
+
+Lembre-se de que nomes ruins podem ficar obsoletos, depois de alguns meses sem ver o código, alguns nomes podem não fazer mais sentido e esquecer para o que aquela variável foi criada.
