@@ -68,7 +68,7 @@ Pense em algumas questões na hora de declarar nomes:
 - Se uma função retorna algo, como eu vou usar o que está sendo retornado?
 - Se tiver uma lista, pense no que ela terá para escolher um bom nome.
 
-### Evite informações erradas
+### Evite informações erradas e faça distinções
 
 Não passe dicas erradas que confundam o sentido do código. Algumas palavras podem parecer ser bons nomes, mas não são, porque podem apresentar outras interpretações e significados ao código. Por exemplo, `hp` não é um bom nome para armazenar o resultado da hipotenusa, pois é o nome de plataforma Unix. 
 
@@ -81,3 +81,5 @@ Evite criar variáveis muito genéricas, como abreviações que nem todos vão e
 Como saber qual função utilizar para criar uma conta? O mesmo serve para a criação de classes, não crie uma classe chamada `Cliente` e outra `ClienteInfo`, dessa forma o código irá ficar bem confuso, principalmente a medida que ele irá crescendo. Também se torna redudante criar palavras como: `variavelNome` ou `nomeString`. Não é necessário acrescentar a palavra `variavel` para uma variável e `string` para `nomeString`, até porque se `nomeString` recebe um número no formato de string estará havendo uma ambiguidade na escolha do nome.
 
 Faça distinções em suas variáveis, se uma palavra já está sendo utilizada, por exemplo, `class` não crie outra variável chamada `klass`. Busque entender o motivo de precisar criar outra variável com o mesmo significado de `class`. O que a nova variável irá significar? 
+
+Cuidado ao usar nomes muito parecidos que possam ser difíceis de serem distinguidos e procure utilizar nomes que possam ser claros e pronunciados.
