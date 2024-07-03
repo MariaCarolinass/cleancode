@@ -41,7 +41,7 @@ A variável nomeada `a` declarada como um inteiro não me mostra o que esse inte
 
 Vamos pensar, se tivermos um arquivo com 1000 linhas de código programadas e alguma função ao final do arquivo que precise da variável `a`, como vamos achá-la no meio de tanto código, como iremos lembrar o que `a` faz e qual o sentido que essa variável estaria dando ao nosso código.
 
-#### Um código com nomes ruins
+### Um código com nomes ruins
 
     public Boolean verificarCamisas() {
        int a = 6; // número de camisas vendidas no dia
@@ -49,7 +49,7 @@ Vamos pensar, se tivermos um arquivo com 1000 linhas de código programadas e al
        return a == b;
     }
 
-#### Um código com nomes melhores
+### Um código com nomes melhores
 
     public Boolean verificarSeAtingiuTotalDeVendas() {
        int camisasVendidasNoDia = 6;
@@ -67,4 +67,8 @@ Pense em algumas questões na hora de declarar nomes:
 - O que vai acontecer na função?
 - Se uma função retorna algo, como eu vou usar o que está sendo retornado?
 - Se tiver uma lista, pense no que ela terá para escolher um bom nome.
+
+### Evite informações erradas
+
+Não passe dicas erradas que confundam o sentido do código. Algumas palavras podem parecer ser bons nomes, mas não são, porque podem apresentar outras interpretações e significados ao código. Por exemplo, `hp` não é um bom nome para armazenar o resultado da hipotenusa, pois é o nome de plataforma Unix. Evite criar variáveis muito genéricas, como abreviações que nem todos vão entender logo de cara do que se trata ou variáveis com apenas uma letra. Não utilize a palavra `list` (lista) em uma variável que não é uma lista para não haver confusões. 
 
