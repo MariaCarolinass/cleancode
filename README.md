@@ -78,8 +78,10 @@ Evite criar variáveis muito genéricas, como abreviações que nem todos vão e
     criarContaUsuarios();
     crirarContaInfoUsuarios();
 
-Como saber qual função utilizar para criar uma conta? O mesmo serve para a criação de classes, não crie uma classe chamada `Cliente` e outra `ClienteInfo`, dessa forma o código irá ficar bem confuso, principalmente a medida que ele irá crescendo. Também se torna redudante criar palavras como: `variavelNome` ou `nomeString`. Não é necessário acrescentar a palavra `variavel` para uma variável e `string` para `nomeString`, até porque se `nomeString` recebe um número no formato de string estará havendo uma ambiguidade na escolha do nome.
+Como saber qual função utilizar para criar uma conta? 
 
-Faça distinções em suas variáveis, se uma palavra já está sendo utilizada, por exemplo, `class` não crie outra variável chamada `klass`. Busque entender o motivo de precisar criar outra variável com o mesmo significado de `class`. O que a nova variável irá significar? 
+O mesmo serve para a criação de classes, não crie uma classe chamada `Cliente` e outra `ClienteInfo`, dessa forma o código irá ficar bem confuso, principalmente a medida que ele irá crescendo. Também se torna redudante criar palavras como `variavelNome` ou `nomeString`. Não é necessário acrescentar a palavra `variavel` para uma variável e `string` para `nomeString`, até porque se `nomeString` recebe um número no formato de string estará havendo uma ambiguidade na escolha do nome.
 
-Cuidado ao usar nomes muito parecidos que possam ser difíceis de serem distinguidos e procure utilizar nomes que possam ser claros e pronunciados.
+Faça distinções em suas variáveis, se uma palavra já está sendo utilizada, por exemplo, `class` não crie outra variável chamada `klass`. Busque entender o motivo de precisar criar outra variável com o mesmo significado de `class`. O que a nova variável irá significar?
+
+Cuidado ao usar nomes muito parecidos que possam ser difíceis de serem distinguidos. Procure utilizar nomes que possam ser **claros** e **pronunciados**.
