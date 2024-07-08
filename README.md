@@ -8,6 +8,7 @@ Autor do livro: Robert C. Martin
 Sumário
 - [Capítulo 1 - Código Limpo](#capítulo-1---código-limpo)
 - [Capítulo 2 - Nomes significativos](#capítulo-2---nomes-significativos)
+- [Capítulo 3 - Funções](#capítulo-3---funcoes)
 *******
 
 ## Capítulo 1 - Código Limpo
@@ -89,3 +90,5 @@ Faça distinções em suas variáveis, se uma palavra já está sendo utilizada,
 - Cuidado ao usar nomes muito parecidos que possam ser difíceis de serem distinguidos. 
 - Procure utilizar nomes que possam ser **claros** e **pronunciados**.
 - Crie nomes passíveis de busca, lembre-se que criar uma variável chamada `e` pode ser dificil de encontrá-la novamente em um projeto muito grande, a não ser que `e` seja uma variável local para uma pequena função especícifica.
+
+## Capítulo 3 - Funções
