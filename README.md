@@ -8,7 +8,7 @@ Autor do livro: Robert C. Martin
 Sumário
 - [Capítulo 1 - Código Limpo](#capítulo-1---código-limpo)
 - [Capítulo 2 - Nomes significativos](#capítulo-2---nomes-significativos)
-- [Capítulo 3 - Funções](#capítulo-3---funcoes)
+- [Capítulo 3 - Funções](#capítulo-3---funções)
 *******
 
 ## Capítulo 1 - Código Limpo
