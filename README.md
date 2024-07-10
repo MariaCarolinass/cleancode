@@ -27,6 +27,8 @@ Lembre-se de que o programador é o `@author` do código e a boa comunicação i
 
 Além de escrever um bom código, mantenha-o limpo para que, com o tempo, não torne o código em ruim de novo. É preciso cultivar o bom código. 
 
+**Como manter o código limpo:**
+
  - Troque o nome de uma variável por uma melhor.
  - Divida uma função que esteja um pouco grande demais.
  - Elimine um pouco de repetição do código.
