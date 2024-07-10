@@ -46,7 +46,7 @@ A variável nomeada `a` declarada como um inteiro não me mostra o que esse inte
 
 Vamos pensar, se tivermos um arquivo com 1000 linhas de código programadas e alguma função ao final do arquivo que precise da variável `a`, como vamos achá-la no meio de tanto código, como iremos lembrar o que `a` faz e qual o sentido que essa variável estaria dando ao nosso código.
 
-### Um código com nomes ruins
+### Nomes ruins
 
     public Boolean verificarCamisas() {
        int a = 6; // número de camisas vendidas no dia
@@ -54,7 +54,7 @@ Vamos pensar, se tivermos um arquivo com 1000 linhas de código programadas e al
        return a == b;
     }
 
-### Um código com nomes melhores
+### Nomes melhores
 
     public Boolean verificarSeAtingiuTotalDeVendas() {
        int camisasVendidasNoDia = 6;
