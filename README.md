@@ -95,4 +95,6 @@ Faça distinções em suas variáveis, se uma palavra já está sendo utilizada,
 - Procure utilizar nomes que possam ser **claros** e **pronunciados**.
 - Crie nomes passíveis de busca, lembre-se que criar uma variável chamada `e` pode ser dificil de encontrá-la novamente em um projeto muito grande, a não ser que `e` seja uma variável local para uma pequena função especícifica.
 
+Não faça uso de nomes, onde o leitor precise interpretar o seu significado e seja coerente nas suas escolhas, não opte por criar uma variável `c`, só porque `a` e `b` já foram criadas. Deixe para utilizar variáveis de uma letra para contadores de interação como `i`, `j` e `k`, pois já são variáveis escolhidas por padrão para esta função.
+
 ## Capítulo 3 - Funções
