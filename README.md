@@ -13,7 +13,7 @@ Sumário
 
 ## Capítulo 1 - Código Limpo
 
-O código é a linguagem na qual expressamos nossos requisitos. Os requisitos precisam estarem bem específicados.
+O código é a linguagem na qual expressamos nossos requisitos, que precisam estar bem especificados.
 
 ### Código ruim
 
