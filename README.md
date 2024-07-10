@@ -46,7 +46,7 @@ A variável nomeada `a` declarada como um inteiro não me mostra o que esse inte
 
 Vamos pensar, se tivermos um arquivo com 1000 linhas de código programadas e alguma função ao final do arquivo que precise da variável `a`, como vamos achá-la no meio de tanto código, como iremos lembrar o que `a` faz e qual o sentido que essa variável estaria dando ao nosso código.
 
-### Nomes ruins
+**Exemplo da escolha de nomes ruins**
 
     public Boolean verificarCamisas() {
        int a = 6; // número de camisas vendidas no dia
@@ -54,7 +54,7 @@ Vamos pensar, se tivermos um arquivo com 1000 linhas de código programadas e al
        return a == b;
     }
 
-### Nomes melhores
+**Exemplo da escolha de nomes melhores**
 
     public Boolean verificarSeAtingiuTotalDeVendas() {
        int camisasVendidasNoDia = 6;
@@ -83,9 +83,9 @@ Evite criar variáveis muito genéricas, como abreviações que nem todos vão e
     criarContaUsuarios();
     crirarContaInfoUsuarios();
 
-Como irei saber qual dessas funções utilizar para criar a conta? 
+Como saber qual dessas funções utilizar para criar uma conta? 
 
-O mesmo serve para a criação de classes, não crie uma classe chamada `Cliente` e outra `ClienteInfo`, dessa forma o código irá ficar bem confuso, principalmente a medida que ele irá crescendo. Também se torna redudante criar palavras como `variavelNome` ou `nomeString`. Não é necessário acrescentar a palavra `variavel` para uma variável e `string` para `nomeString`, até porque se `nomeString` recebe um número no formato de string estará havendo uma ambiguidade na escolha do nome.
+O mesmo serve para a criação de classes, não crie uma classe chamada `Cliente` e outra `ClienteInfo`, dessa forma o código irá ficar bem confuso, principalmente a medida que ele irá crescendo. Também se torna redudante criar palavras como `variavelNome` ou `nomeString`. Não é necessário acrescentar a palavra `variavel` para uma variável e `string` para `nomeString`, até porque se `nomeString` receber um número no formato de string estará havendo uma ambiguidade na escolha do nome.
 
 Faça distinções em suas variáveis, se uma palavra já está sendo utilizada, por exemplo, `class` não crie outra variável chamada `klass`. Busque entender o motivo de criar outra variável com o mesmo significado de `class`, pensando no que essa nova variável irá significar.
 
