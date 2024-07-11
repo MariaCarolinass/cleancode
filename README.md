@@ -97,6 +97,12 @@ Faça distinções em suas variáveis, se uma palavra já está sendo utilizada,
 
 Não faça uso de nomes, onde o leitor precise interpretar o seu significado e seja coerente nas suas escolhas, não opte por criar uma variável `c`, só porque `a` e `b` já foram criadas. Deixe para utilizar variáveis de uma letra para contadores de interação como `i`, `j` e `k`, pois já são variáveis escolhidas por padrão para esta função.
 
-Para classes e objetos, escolha por usar substantivos para nomeá-los, como Cliente e Conta, ao invés de utilizar palavras como Info ou Dados.
+### Nomes de classes
+
+Para classes e objetos, escolha por usar substantivos para nomeá-los, como `Cliente` e `Conta`, ao invés de utilizar palavras como `Info` ou `Dados` que são nomes genéricos.
+
+### Nomes de métodos
+
+Para os métodos faça uso dos verbos, como `postar`, `pagar`, `deletar`, `salvar` e `editar`. Para métodos de acesso e alteração usar os prefixos `get` e `set` por padrão e `is` para autenticação. 
 
 ## Capítulo 3 - Funções
