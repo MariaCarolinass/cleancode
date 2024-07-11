@@ -97,6 +97,12 @@ Faça distinções em suas variáveis, se uma palavra já está sendo utilizada,
 
 Não faça uso de nomes, onde o leitor precise interpretar o seu significado e seja coerente nas suas escolhas, não opte por criar uma variável `c`, só porque `a` e `b` já foram criadas. Deixe para utilizar variáveis de uma letra para contadores de interação como `i`, `j` e `k`, pois já são variáveis escolhidas por padrão para esta função.
 
+Não faça trocadilhos como criar vários métodos com o pré-fixo `add` para utilidades que não tem o mesmo significado, se você deseja criar uma função para adicionar um item na lista e outra para adicionar uma concatenação em uma palavra, procure distinguir uma função da outra, não fazendo com que elas pareçam ser a mesma função.
+
+Utilize termos de Informática, nomes padrões, nomes de algoritmos, termos matemáticos e entre outros, pois quem irá ler o código serão outros programadores que deverão conhecer a linguagem técnica dos códigos.
+
+Os nomes também precisam de um contexto, pois se virmos uma palavra como `estado` sozinha, ela pode significar qualquer coisa, pode ser um endereço ou andamento de algo.
+
 ### Nomes de classes
 
 Para classes e objetos, escolha por usar substantivos para nomeá-los, como `Cliente` e `Conta`, ao invés de utilizar palavras como `Info` ou `Dados` que são nomes genéricos.
