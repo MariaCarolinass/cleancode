@@ -101,14 +101,16 @@ Não faça trocadilhos como criar vários métodos com o pré-fixo `add` para ut
 
 Utilize termos de Informática, nomes padrões, nomes de algoritmos, termos matemáticos e entre outros, pois quem irá ler o código serão outros programadores que deverão conhecer a linguagem técnica dos códigos.
 
-Os nomes também precisam de um contexto, pois se virmos uma palavra como `estado` sozinha, ela pode significar qualquer coisa, pode ser um endereço ou andamento de algo.
+Os nomes também precisam de um contexto, pois se virmos uma palavra como `estado` sozinha, ela pode significar qualquer coisa, pode ser um endereço ou andamento de algo. Para um melhor contexto, é preferível que a variável `estado` esteja em uma classe chamada `Endereço`, assim saberemos a que escopo essa palavra pertence, mas cuidado, não adicione contextos desnecessários, que são irrelevantes ou que dificultam a busca de palavras pelo código. A classe `Endereço` é um bom nome, não é necessário alterá-la para `EndereçoUsuario`.
 
-### Nomes de classes
+### Nomes de classes:
 
 Para classes e objetos, escolha por usar substantivos para nomeá-los, como `Cliente` e `Conta`, ao invés de utilizar palavras como `Info` ou `Dados` que são nomes genéricos.
 
-### Nomes de métodos
+### Nomes de métodos:
 
 Para os métodos faça uso dos verbos, como `postar`, `pagar`, `deletar`, `salvar` e `editar`. Para métodos de acesso e alteração usar os prefixos `get` e `set` por padrão e `is` para autenticação. 
 
 ## Capítulo 3 - Funções
+
+As funções são importantes na organização de qualquer código, por isso devemos escrevê-las bem.
