@@ -113,4 +113,5 @@ Para os métodos faça uso dos verbos, como `postar`, `pagar`, `deletar`, `salva
 
 ## Capítulo 3 - Funções
 
-As funções são importantes na organização de qualquer código, por isso devemos escrevê-las bem.
+As funções são importantes na organização de qualquer código, por isso devemos escrevê-las bem. Uma função ruim é quando demoramos para entender qual o objetivo dela, seja por ela ser longa demais, ter muito código repetido, string e outros tipos de dados difíceis de serem compreendidos ou muitas estruturas condicionais aninhadas uma dentro da outra. E como identificar uma boa função? Uma função pequena que atende a um propósito específico de forma clara e objetiva é uma excelente função. Não existem regras de quantos caracteres escrever em uma função, mas ela deve ser a menor possível e responder a um propósito, mesmo que você tenha que dividir o seu código em várias pequenas funções.
+
